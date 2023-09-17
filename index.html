@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather App - JavaScript</title>
+    <link rel="stylesheet" href="font/Rimouski.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Add your custom CSS for background color adaptation -->
+    <style>
+        body {
+            transition: background-color 0.5s;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <center>
+    <div class="app-title">
+
+    <p class="logo">     
+        <div> <img src="images/logo.png" alt="Tascomm Logo" width="120px"> </div>
+        <div> <h1>Tascomm Simple Weather App</h1> </div>        
+    </p>
+
+    </div>
+    <div class="notification"></div>
+
+    <div class="weather-container">
+        <div class="weather-icon text-center">
+            <img src="icons/unknown.png" alt="Weather Icon">
+        </div>
+        <div class="temperature-value text-center">
+            <p>- <span>°C</span></p>
+        </div>
+        <div class="temperature-description text-center">
+            <p> - </p>
+        </div>
+        <div class="location text-center">
+            <p>-</p>
+        </div>
+    </div>
+    </center>
+</div>
+
+<script src="app.js"></script>
+<!-- Include Bootstrap JS and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
